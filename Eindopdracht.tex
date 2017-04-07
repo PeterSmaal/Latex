@@ -1,0 +1,86 @@
+\documentclass[12pt, a4paper]{article}
+\renewcommand{\baselinestretch}{2.0}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\lhead{Mobile Documentation}
+\rhead{Peter Smaal - 0908946}
+\rfoot{Written in Latex}
+
+\usepackage{apacite}
+\begin{document}
+\newcommand*{\myfont}{\fontfamily{phv}\selectfont}
+\title{Making documentation in the care homes mobile}
+\author{Peter Smaal}
+\maketitle
+
+\begin{figure}
+\centering
+\includegraphics[width=33mm]{Hogeschool-Rotterdam-Logo.pdf}
+\caption{HR Logo}
+\label{fig: HROlogo}
+\end{figure}
+
+\pagenumbering{gobble}
+
+\newpage
+\myfont{\tableofcontents}
+\newpage
+
+\pagenumbering{arabic}
+
+\section{Exordium}
+The workload for caregivers in care homes is becoming too high. More and more people keep coming to the care homes because of their health conditions. This has created a lack of caregivers. Not only is this a problem for the caregivers, since their work is both, physically and emotionally, very heavy, it is also a problem for the residents in the care homes.
+In 2012, 40 percent of people in care homes feel like the social contact with the caregivers and the service itself is not good enough \cite{bowman:reasoning}. Because the caregivers are so busy, they don’t have any time to socialize with the residents or give them the quality of care they need.
+Some people in the care homes that still have family or friends are visited sometimes. When the visitors want to know the status of the person in the care house, they must ask the caregivers. Because of this, the caregiver will lose more of his or her time and this will create more stress.
+An application could be created to make the work of the caregivers easier. All the caregivers must make a documentation of their work. If an application was created that made them able to fill in a form on the go it would take much time of their hands. An extension of the application could be the ability to send the status of the person they just worked with to the family of this person. This way the family is constantly updated and the caregivers are done faster with their documentation. It will bring back the time to have a chat with the residents and the workload will go decrease.
+
+\newpage
+
+
+\section{Solution}
+
+\subsection{The functionalities}
+The application will include two functionalities. One of these will be reporting. Reporting is an important aspect of caregiving. It keeps all the caregivers updated and it evaluates the client’s status. Caregivers in Holland spend about 25 percent of their time doing administration while they find 15 percent should be enough, according to a research from Berenschot in 2016 \cite{salas:calculus}. By making the caregivers able to fill out their administration on the go, it will cut time, which is precious.
+The second functionality is to inform the family of the clients. Since most people have no time to visit their relatives that live in care homes, they do not always know what the status of the client is. To keep them updated an extension to the application will be added that will notify the family members about the status of the client.
+
+\subsection{Reporting - Writing and Quality}
+Reporting in the elderly care has rules. The reportage must be objective and needs to be written in correct language. This means such words as “all the time”, “pretty” and “very” are not allowed to be used. When a report is handwritten, it must be readable to the other caregivers. Another rule is that there are not allowed to be more than one report per client. By using the build application, these rules could be automatically applied when writing a reportage cite{clark:pct}. The client his or her current report can be automatically found by the app so the caregiver can continue working on it. The app also could be able to filter the words mentioned previously and notify the writer of the report so he or she can fix it. Another problem the app would fix is the readability. By always typing the reports, everyone will always be able to read them.
+
+\subsection{Reporting – Storing the reports}
+Since the caregivers will be using the same app, the reports will be saved at the same location, this means that it will not be hard to find the reports made if necessary. Searching for physical copies of the reports is time-consuming. By storing them all digitally in one place, it cannot get lost and it will be easier to access the reports. 
+To store the reports a local server will be used. If a local server is used, the files cannot be accessed from the outside, keeping them safe. To up the quality of the security, the SSL standard can be used for the connection between the application and the server. As mentioned before, this will also make sure the files are stored at the same location.
+
+\subsection{Notifying family – Status updates}
+As mentioned before, an extension to the app is to be able to notify the families of the clients. This will work like a form of google docs. A small form for the caregiver to fill in will be made in the application. With this form the caregiver will be able to fill in the current mood of the client and if the client is healthy or not. This will then be sent as sms or email message to the family member.
+
+\newpage
+
+\section{Innovation}
+Care homes themselves are using more and more technologies to make the work for the caregivers easier. Mobile applications are also used more often. An example of a popular mobile application is Risicoscan from Zorg voor Beter and Farmacotherapeutisch Kompas – medicijnen, according to a top ten list from Zorg voor Beter \cite{herlihy:methodology}. These applications are easy assistants that help the caregivers. However, these apps are simple assistants for the caregiver to find general information like medicine information more easily. Too me it seems like an application for full-on documentation and notifying the family of the clients has not been made yet. This is what makes this product innovating. Not only could the application be used to easily find information about a client, it will also be possible to edit, add and delete certain information way more easily. Since it does not seem to be on the market yet it it will be a huge step forward. 
+Another function of the application that makes this app very original is notifying the relatives. This function also does not seem to be on the market yet. It makes it easier for the relatives to see what their loved one his or her status is. This way there will be less confusion when the relatives will visit the clients. They will not have to ask the caregivers how their family member is doing anymore.
+
+\newpage
+
+\section{Advantages and Disadvantages}
+The product will bring many advantages since the documentation will now be done on a phone or tablet. The caregivers will be able to write their documentation while walking to the next client. This means they will not have to put time apart anymore. Because of this, the quality of the work the caregiver does will increase and the workload will decrease. Another advantage of the application will be that the caregivers ware going to have more time to socialize with the clients. As many of the people in care homes have the feeling the caregivers do not have enough time to socialize (40 percent of the people in care homes in 2014).\cite{bowman:reasoning} The clients will start to feel less lonely and their life will be better.
+The families of the client will be updated by the application. They might be triggered to visit their familymember more often now.
+A disadvantage of the application is that some caregivers will have to learn how to use a phone or tablet. The learning process will take a bit of time, but eventually this will be benefitting. Another disadvantage is that every caregiver will need a smartphone or a tablet. This means that either the care home will have to buy the smart devices or the caregivers themselves will have to to buy a new smart device.
+
+
+\newpage
+
+\section{Conclusion}
+To conclude it all, the idea is to create an application. The application will be made with two general functions. The main function will be to write and find the reports of the clients in the care home. It will be made sure that the documentation will follow the rules for grammar and objectivity. This will be making certain that the documentation is clear and easily understandable by the other caregivers.
+The reports will be stored safely on one local server, guaranteeing security for the files. This will also fix the problem of losing and not being able to find reports. 
+The second function will be sending out notifications to the family of the clients. The notifications will tell the familymembers the current state of health and the mood of the client. 
+The application does not seem to be at the market yet. That is why this product is a big innovation. Caregivers will now be able to find, edit and delete their documentation and reports of the clients faster, giving them more time to socialize with the clients and enhance the quality of their work. 
+Although the learning process for the caregivers with the smartdevices might be long, it will still benefit them.
+
+
+\bibliography{mybib}
+\bibliographystyle{apacite}
+
+\end{document}

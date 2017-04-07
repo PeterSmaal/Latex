@@ -1,0 +1,84 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Bowman%
+, Debray%
+\BCBL {}\ \BBA {} Peterson%
+}{%
+Bowman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1993}}%
+}]{%
+bowman:reasoning}
+\APACinsertmetastar {%
+bowman:reasoning}%
+\begin{APACrefauthors}%
+Bowman, M.%
+, Debray, S\BPBI K.%
+\BCBL {}\ \BBA {} Peterson, L\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{November}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reasoning About Naming Systems} {Reasoning about naming
+  systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Trans. Program. Lang. Syst.}{15}{5}{795-825}.
+\newblock
+\begin{APACrefDOI} \doi{10.1145/161468.161471} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Herlihy%
+}{%
+Herlihy%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+herlihy:methodology}
+\APACinsertmetastar {%
+herlihy:methodology}%
+\begin{APACrefauthors}%
+Herlihy, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{November}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Methodology for Implementing Highly Concurrent Data
+  Objects} {A methodology for implementing highly concurrent data
+  objects}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Trans. Program. Lang. Syst.}{15}{5}{745-770}.
+\newblock
+\begin{APACrefDOI} \doi{10.1145/161468.161469} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Salas%
+\ \BBA {} Hille%
+}{%
+Salas%
+\ \BBA {} Hille%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+salas:calculus}
+\APACinsertmetastar {%
+salas:calculus}%
+\begin{APACrefauthors}%
+Salas, S.%
+\BCBT {}\ \BBA {} Hille, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1978}.
+\newblock
+\APACrefbtitle {Calculus: One and Several Variable} {Calculus: One and several
+  variable}.
+\newblock
+\APACaddressPublisher{New York}{John Wiley and Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
