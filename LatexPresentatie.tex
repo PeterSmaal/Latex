@@ -1,0 +1,54 @@
+\documentclass{beamer}
+\author{Peter Smaal}
+
+\title{Learing \LaTeX}
+\subtitle{What have we done}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{apacite}
+
+\pagestyle{fancy}
+\rhead{Peter Smaal - 0908946}
+\lhead{Eindopdracht \LaTeX}
+
+
+\begin{document}
+\newcommand*{\myfont}{\fontfamily{pcr}\selectfont}
+
+\frame{\titlepage}
+
+
+\begin{frame}
+\frametitle{Using LaTeX}
+LaTeX wordt gebruikt als tekstverwerker om documenten en presentaties etc. te creëren
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Welke editor gebruik ik?}
+\myfont{Ik gebruik de editor "Texmaker". (Ik gebruik hier ook een andere font )}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+\frametitle{Een plaatje invoegen hebben we ook geleerd}
+\includegraphics[width = 50mm]{Hogeschool-Rotterdam-Logo.pdf}
+\caption{HR LOGO}
+\label{fig: Hogeschool Rotterdam Logo}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ook hebben we leren citeren.}
+"Ik heb geen idee wat deze persoon heeft gezegd maar ik citeer hem wel in apa style"\cite{braams:babel}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{References}
+\bibliography{mybib}
+\bibliographystyle{apacite}
+\end{frame}
+
+\end{document}

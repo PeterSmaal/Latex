@@ -1,0 +1,27 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Braams%
+}{%
+Braams%
+}{%
+{\protect \APACyear {1991}}%
+}]{%
+braams:babel}
+\APACinsertmetastar {%
+braams:babel}%
+\begin{APACrefauthors}%
+Braams, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1991}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Babel, a Multilingual Style-Option System for Use with
+  LaTeX's Standard Document Styles} {Babel, a multilingual style-option system
+  for use with latex's standard document styles}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{TUGboat}{12}{2}{291-301}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
